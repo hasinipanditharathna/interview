@@ -1,0 +1,16 @@
+.component-button-set {
+    background-color: rgb(117, 115, 116);;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    width: 100%;
+  }
+  
+  .component-button-set > div {
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 0 0 auto;
+    display: flex;
+  }
+  

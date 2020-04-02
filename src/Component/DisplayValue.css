@@ -1,0 +1,20 @@
+.component-display {
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-weight: 180;
+    flex: 0 0 auto;
+    width: 100%;
+          /* height is 2x line-height, so two lines will display */
+          overflow-wrap: break-word; 
+          border-radius: 25px;
+          border: 1px solid rgb(117, 115, 116);
+  }
+        
+.component-display > div {
+        
+  text-overflow: ellipsis;      
+    font-size: 1.7rem;
+    padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+ 
+  }

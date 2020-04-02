@@ -1,0 +1,33 @@
+.component-button {
+  display: inline-flex;
+  width: 25%;
+  /* flex: 1 0 auto;   */
+}
+
+.component-button button:hover {
+  background-color: rgb(184, 189, 184); /* Green */
+  /* color: white; */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.component-button button {
+
+  background-color: white;
+  border: 1;
+  font-size: 1rem;
+
+  flex: 1 0 auto;
+  padding:0;
+  border-radius: 25px;
+  border: 2px solid rgb(117, 115, 116);
+  
+}
+
+/* .component-button:last-child button {
+  margin-right: 0px;
+} */
+
+.component-button.blue button {
+  background-color:black;
+  color: white;
+}
